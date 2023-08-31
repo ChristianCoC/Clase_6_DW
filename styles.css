@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+main {
+    padding-top: 100px;
+    background-color: rgb(255, 140, 0.5);
+}
+#contenedor1 h2 {
+    text-align: center;
+    padding: 10px;
+    color:#333;
+    font-size: 2em;
+}
+.medidas {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px auto;
+    gap: 20px;
+}
+.medida1, .medida2, .medida3, .medida4 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    font-size: 1.2em;
+    color: #333;
+}
+.medida5 {
+    width: 90%;
+    margin: 20px auto 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    font-size: 1.2em;
+}
+#contenedor2 {
+    background-color: #333;
+    padding: 20px 0;
+    box-shadow: 1px 1px 20px #333;
+}
+#contenedor2 h2 {
+    text-align: center;
+    padding: 10px;
+    color:rgb(255, 140, 0.5);
+    font-size: 2em;
+}
+.color1{
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 140, 10);
+    font-size: 1.2em;
+}
+.colores {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px auto;
+    gap: 20px;
+}
+.color2, .color3, .color4, .color5, .color6, .color-fondo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 140, 10);
+    font-size: 1.2em;
+    color: #333;
+}
+.tipografias {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 140, 10);
+    font-size: 1.2em;
+    color: #333;
+    width: 90%;
+    margin: 20px auto;
+}
+.tipografias ul {
+    list-style: none;
+    padding: 10px;
+}
+.google-fonts, .adobe-fonts {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 140, 10);
+    font-size: 1.2em;
+    color: #333;
+    width: 90%;
+    margin: 20px auto;
+}
+.google-fonts a, .adobe-fonts a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 140, 0);
+}
+.google-fonts a:hover, .adobe-fonts a:hover {
+    color: #333;
+}
+#contenedor3 h2 {
+    text-align: center;
+    padding: 10px 0;
+    color:#333;
+    font-size: 2em;
+}
+.icono {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 0 auto;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.iconos, .flaticon, .fontawesome {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    font-size: 1.2em;
+    color: #333;
+}
+.flaticon a, .fontawesome a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 140, 0);
+}
+.flaticon a:hover, .fontawesome a:hover {
+    color: #333;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    box-shadow: 0 0 10px #333;
+    font-size: 1.2em;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(255, 140, 0);
+}
+
+
+

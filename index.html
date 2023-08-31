@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 6</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Medidas, Colores, Fondos, Fuentes e Iconos</h1>
+    </header>
+    <main>
+        <section id="contenedor1">
+            <h2>Unidades de Medidas</h2>
+            <di class="medidas">
+                <div class="medida1">
+                    <h3>Absolutas</h3>
+                    <p>Son medidas fijas que tienen su propio valor y no dependen de otro elemento, son muy poco
+                        flexibles.</p>
+                </div>
+                <div class="medida2">
+                    <h3>Relativas</h3>
+                    <p>Son medidas que dependen de otro elemento, son muy flexibles.</p>
+                </div>
+                <div class="medida3">
+                    <h3>Unidades de Medidas Absolutas</h3>
+                    <p>Son medidas muy poco flexibles y no se adaptan fácilmente a los diferentes dispositivos.</p>
+                    <h4>Pixel</h4>
+                    <p>Es la unidad de medida más pequeña y su medida real depende del dispositivo.</p>
+                    <h4>CM</h4>
+                    <p>Centímetros (10mm).</p>
+                    <h4>MM</h4>
+                    <p>Milímetros (1/10cm).</p>
+                    <h4>IN</h4>
+                    <p>Pulgadas (2.54cm).</p>
+                    <h4>PT</h4>
+                    <p>Puntos (0.35mm).</p>
+                    <h4>PC</h4>
+                    <p>Picas (4.23mm).</p>
+                </div>
+                <div class="medida4">
+                    <h3>Unidades de Medidas Relativas</h3>
+                    <p>Su valor depende de otro valor, son muy flexibles y son las mas utilizadas.</p>
+                    <h4>em</h4>
+                    <p>
+                        < < M> > 1em = Tamaño de fuente establecida en el navegador, si no es modificada por el usuario
+                            su valor base es de 16px, osea que 1em = 16px, 2em = 32px, 0.5em = 8px, etc.
+                    </p>
+                    <h4>rem</h4>
+                    <p>
+                        < < root M> > 1rem = tamaño fuente raíz, toma la medida base que el usuario le da con la pseudo
+                            clase :root,
+                            si el usuario configura en 22px, 1rem = 22px, 2rem = 44px, etc.
+                    </p>
+                    <h4>%</h4>
+                    <p>Porcentaje, relativo al contenedor padre.</p>
+                    <h4>ex</h4>
+                    <p>
+                        < < X> > (0.5 em aproximadamente) 1ex = mitad del tamaño de la fuente del navegador
+                            aproximadamente.
+                    </p>
+                    <h4>ch</h4>
+                    <p>
+                        < < 0 width> > 1ch = ancho de un cero.
+                    </p>
+                </div>
+                </div>
+        </section>
+        <section class="medida5">
+            <h3>Unidades de medidas flexibles</h3>
+            <h4>vh</h4>
+            <p>Viewport Height: si el div o elemento padre mide 800px de alto, la medida seria 50vh = 400px de
+                alto. </p>
+            <h4>vw</h4>
+            <p>Viewport Width: si el div o elemento padre mide 800px de ancho, la medida seria 50vw = 400px de
+                ancho.</p>
+            <h4>vmin</h4>
+            <p>Viewport Minimum</p>
+            <h4>vmax</h4>
+            <p>Viewport Maximum</p>
+        </section>
+        <section id="contenedor2">
+            <h2>Colores y Tipografías</h2>
+            <div class="color1">
+                <h3>Colores</h3>
+                <p>Para dar color a cualquier elemento se utiliza la propiedad color, existen diferentes formas de
+                    especificar el color.</p>
+            </div>
+            <div class="colores">
+                <div class="color2">
+                    <h4>Hexadecimal</h4>
+                    <p>#000000</p>
+                </div>
+                <div class="color3">
+                    <h4>RGB</h4>
+                    <p>red, green, blue = rgb(0, 0, 0)</p>
+                </div>
+                <div class="color4">
+                    <h4>RGBA</h4>
+                    <p>red, green, blue, alpha(opacidad) = rgba(0, 0, 0, 1)</p>
+                </div>
+                <div class="color5">
+                    <h4>HSL</h4>
+                    <p>hue(Matiz), saturation(saturación), lightness(luminosidad) = hsl(0, 0%, 0%)</p>
+                </div>
+                <div class="color6">
+                    <h4>HSLA</h4>
+                    <p>hue(Matiz), saturation(saturación), lightness(luminosidad), alpha(opacidad) = hsla(0, 0%, 0%, 1)
+                    </p>
+                </div>
+                <div class="color-fondo">
+                    <h4>Color de Fondo</h4>
+                    <p>Para dar color de fondo a cualquier elemento se utiliza la propiedad background-color, existen
+                        diferentes formas de especificar el color.</p>
+                    <h4>Imagen de Fondo</h4>
+                    <p>Para dar una imagen de fondo a cualquier elemento se utiliza la propiedad background-image,
+                        existen diferentes formas de especificar la imagen.</p>
+                </div>
+            </div>
+            <div class="tipografias">
+                <h4>Tipografías</h4>
+                <p>Es uno de los pilares del diseño web, se pueden dar diferentes estilos y es muy importante saber
+                    interpretar
+                    al usuario o diseño para elegir la tipografía correcta.</p>
+                <h5>Propiedades básicas:</h5>
+                <ul>
+                    <li>(Tipo de fuente)font-family: Arial, Helvetica, sans-serif;</li>
+                    <li>(Tamaño)font-size: 16px;</li>
+                    <li>(Grosor)font-weight: bold;</li>
+                    <li>(Estilo)font-style: italic;</li>
+                    <li>(Decorado)text-decoration: underline;</li>
+                    <li>(Transformación)text-transform: uppercase;</li>
+                    <li>(Alineado)text-align: center;</li>
+                    <li>(Altura)line-height: 1.5;</li>
+                    <li>(Espacio entre letras)letter-spacing: 1px;</li>
+                    <li>(Espacio entre palabras)word-spacing: 1px;</li>
+            </div>
+            <div class="google-fonts">
+                <h4><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></h4>
+                <p>Es una librería de fuentes de google, se pueden utilizar en cualquier proyecto web.</p>
+                <h5>¿Cómo se utiliza?</h5>
+                <p>Se debe importar la fuente en el archivo css, copiando el link que nos da google fonts.</p>
+                <p>Se debe agregar la propiedad font-family: 'nombre de la fuente'; al elemento que queremos cambiar la
+                    tipografía.</p>
+            </div>
+            <div class="adobe-fonts">
+                <h4><a href="https://fonts.adobe.com/fonts/" target="_blank">Adobe Fonts</a></h4>
+                <p>Es una librería de fuentes de adobe, se pueden utilizar en cualquier proyecto web.</p>
+                <h5>¿Cómo se utiliza?</h5>
+                <p>Se debe importar la fuente en el archivo css, copiando el link que nos da adobe fonts.</p>
+                <p>Se debe agregar la propiedad font-family: 'nombre de la fuente'; al elemento que queremos cambiar la
+                    tipografía.</p>
+            </div>
+        </section>
+        <section id="contenedor3">
+            <h2>Iconos</h2>
+            <div class="icono">
+                <div class="iconos">
+                    <p>Los iconos son muy importantes en el diseño web, ya que ayudan a mejorar la experiencia de
+                        usuario y
+                        a darle un toque de diseño a la página.</p>
+                    <h5>¿Cómo se utilizan?</h5>
+                    <p>Se debe importar la librería de iconos en el archivo html, copiando el link que nos da la
+                        librería.</p>
+                    <p>Se debe agregar la etiqueta < < i> > con la clase del icono que queremos utilizar.</p>
+                </div>
+                <div class="flaticon">
+                    <h4><a href="https://www.flaticon.es/" target="_blank">Flaticon</a></h4>
+                    <p>Es una librería de iconos, se pueden utilizar en cualquier proyecto web.</p>
+                    <h5>¿Cómo se utiliza?</h5>
+                    <p>Se debe importar la librería de iconos en el archivo html, copiando el link que nos da la
+                        librería.</p>
+                    <p>Se debe agregar la etiqueta < < i> > con la clase del icono que queremos utilizar.</p>
+                </div>
+                <div class="fontawesome">
+                    <h4><a href="https://fontawesome.com/" target="_blank">Fontawesome</a></h4>
+                    <p>Es una librería de iconos, se pueden utilizar en cualquier proyecto web.</p>
+                    <h5>¿Cómo se utiliza?</h5>
+                    <p>Se debe importar la librería de iconos en el archivo html, copiando el link que nos da la
+                        librería.</p>
+                    <p>Se debe agregar la etiqueta < < i> > con la clase del icono que queremos utilizar.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4>Desarrollado por <a href=https://github.com/ChristianCoC" target="_blank">Christian Siles</a></h4>
+    </footer>
+</body>
+
+</html>
